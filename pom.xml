@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.atomikos</groupId>
 	<artifactId>atomikos-parent</artifactId>
-	<version>5.0.10-SNAPSHOT</version>
+	<version>5.0.9-alfa1001</version>
 	<!-- With maven, a parent pom MUST have "pom" for packaging -->
 	<packaging>pom</packaging>
 	<name>Atomikos All POM</name>
@@ -267,8 +267,6 @@
 			<!-- "modules" must correspond to file system hierarchy -->
 			<modules>
 				<module>public</module>
-				<module>private</module>
-				<module>specs</module>
 			</modules>
 		</profile>
 
